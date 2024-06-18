@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url("BinancePlex-Light.woff2") format('woff2'), url("BinancePlex-Light.otf.html") format('opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url("BinancePlex-Light.woff2") format('woff2'), url("BinancePlex-Light.otf.html") format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url("BinancePlex-Regular.woff2") format('woff2'), url("BinancePlex-Regular.otf.html") format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url("BinancePlex-Medium.woff2") format('woff2'), url("BinancePlex-Medium.otf.html") format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url("BinancePlex-SemiBold.woff2") format('woff2'), url("BinancePlex-SemiBold.otf.html") format('opentype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url("BinancePlex-SemiBold.woff2") format('woff2'), url("BinancePlex-SemiBold.otf.html") format('opentype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'BinancePlex';
+    font-display: swap;
+    src: url("BinancePlex-SemiBold.woff2") format('woff2'), url("BinancePlex-SemiBold.otf.html") format('opentype');
+    font-weight: 800;
+}
+body {
+    font-family: BinancePlex, Arial, sans-serif !important;
+}
+html body {
+    font-family: BinancePlex, Arial, sans-serif !important;
+}
+
+.header_register {
+    display: flex;
+    align-items: center;
+}
+.register_button {
+    margin: 0px;
+    appearance: none;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    padding: 6px 12px;
+    line-height: 20px;
+    min-width: 52px;
+    word-break: keep-all;
+    color: rgb(24, 26, 32);
+    border-radius: 4px;
+    min-height: 24px;
+    border: none;
+    background-image: none;
+    background-color: rgb(252, 213, 53);
+    font-weight: 400;
+}
+
+.register_button_mt10 {
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.timer {
+}
+.timer_llll {
+    visibility: hidden;
+}
